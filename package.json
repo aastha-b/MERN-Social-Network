@@ -1,7 +1,7 @@
 {
   "name": "mern-social-network",
   "version": "1.0.0",
-  "description": "Social network app to be created with MERN stack. Work in progress.",
+  "description": "Social network app",
   "main": "index.js",
   "engines": {
     "node": "10.9.0"
@@ -15,16 +15,6 @@
     "client": "cd client && npm start",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jm-shi/MERN-Social-Network.git"
-  },
-  "author": "Jamie Shi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jm-shi/MERN-Social-Network/issues"
-  },
-  "homepage": "https://github.com/jm-shi/MERN-Social-Network#readme",
   "dependencies": {
     "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
